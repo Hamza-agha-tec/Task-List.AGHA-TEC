@@ -1583,7 +1583,8 @@ main {
     padding: 0 12px;
     background-color: var(--accent-color);
   }
-
+  header .logo h1 {
+    color: black;
   .header-button .tooltip {
     left: 1%;
   }
