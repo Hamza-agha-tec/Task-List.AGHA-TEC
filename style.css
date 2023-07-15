@@ -1368,6 +1368,11 @@ main {
     align-items: center;
     justify-content: space-around;
   }
+  .cancel-submit-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
 }
 
 footer {
