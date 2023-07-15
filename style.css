@@ -1357,11 +1357,11 @@ main {
     font-size: 1rem;
   }
   .add-project-modal.visible {
-    width: 60%;
+    width: 90%;
   }
   .projects-list-container.expanded {
   position: relative;
-  top: 10px;
+  top: 20px;
   }
 }
 
