@@ -101,6 +101,15 @@ body {
 
 
 /* donation */
+.before-donate {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  width: 100%;
+  background-color: #202020;/*
+  align-items: center;
+  justify-content: center;*/
+}
 .donation {
   display: flex;
   align-items: center;
@@ -110,10 +119,11 @@ body {
   height: 50px;
   background-color: #202020;
 }
-.donation h1  {
+.donate-title  {
   color: white;
   font-size: 1.1rem;
 }
+
 .button-container {
   font-size: 12px;
 }
@@ -365,71 +375,7 @@ a {
 
 /* preloader finish */
 
-/* TIP */
-#tip-section {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  height: 30;
-  background-color: #2b2b2b;
-  padding: 12px 40px;
-}
 
-#tip-section a{
-  text-decoration: none;
-  font-size: 1rem;
-}
-
-#tip-section h1{
-  font-size: 1.1rem;
-  color: white;
-}
-
-.by-me-a-coffee a{
-  color: black;
-}
-.by-me-a-coffee {
-  background-color: yellow;
-  color: #ffffff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-
-}
-.by-me-a-coffee:hover {
-  background-color: #ff5555;
-  border-radius: 2px white solid;
-}
-
-.paypal  {
-  padding: 5px 15px;
-  background-color: blue;
-  border-radius: 10px;
-}
-.paypal  a {
-  color: white;
-}
-.payeer {
-  padding: 5px 15px;
-  background-color: blue;
-  border-radius: 10px;
-}
-.payeer a {
-  color: white;
-}
-.patreon {
-  padding: 5px 15px;
-  background-color: #f1465a;
-  border-radius: 10px;
-}
-.patreon a {
-  color: white;
-}
-
-/* TIP */
 
 button span {
   pointer-events: none;
@@ -1589,10 +1535,9 @@ main {
   .header-button .tooltip {
     left: 1%;
   }
-
-  #tip-section {
-    background-color: var(--accent-color);
-  }
+  
+  
+  
 
   .header-button:last-child .tooltip {
     left: -100%;
