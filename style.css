@@ -1349,7 +1349,6 @@ main {
   .sidebar-projects {
     padding-top: 20px;
   }
-  .task-button-top {
     .task-button-top {
     display: flex;
     justify-content: space-between;
@@ -1358,7 +1357,9 @@ main {
     height: 18px;
     align-items: center;
     font-size: 1rem;
-}
+  }
+  .add-project-modal.visible {
+    width: 60%;
   }
 }
 
