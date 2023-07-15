@@ -1340,7 +1340,9 @@ main {
     display: flex;
     flex-direction: column;
   }
-
+  .sidebar-projects {
+    padding-top: 10px;
+  }
 }
 
 footer {
