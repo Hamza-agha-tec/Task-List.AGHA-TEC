@@ -1360,8 +1360,13 @@ main {
     width: 90%;
   }
   .projects-list-container.expanded {
-  position: relative;
-  top: 20px;
+    position: relative;
+    top: 20px;
+  }
+  .add-project-modal .cancel-submit-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
   }
 }
 
