@@ -38,6 +38,9 @@ body {
   display: flex;
   justify-content: center;
 }
+.card2 .a-n {
+  padding: 10px;
+}
 .card h1 {
   color: white;
   padding: 10px;
@@ -87,7 +90,7 @@ body {
   align-items: center;
 }
 .cards {
-  padding-top: 10px;
+  padding-top: 30px;
   position: relative;
   display: flex;
   align-items: center;
