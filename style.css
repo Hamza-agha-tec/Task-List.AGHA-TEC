@@ -1079,6 +1079,8 @@ main {
   white-space: nowrap;
   padding: 0 0 1px 0;
   color: white;
+  position: relative;
+  left: 5px;
 }
 
 .task-button-checkbox-button-div {
