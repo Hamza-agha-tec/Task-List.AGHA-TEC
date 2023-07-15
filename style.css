@@ -1052,21 +1052,21 @@ main {
   cursor: pointer;
   background-color: unset;
   border-bottom: 1px solid var(--task-button-border-color);
-  padding: 8px 0;
+  padding: 15px 0;
   margin: 0 30px 2px 0;
 }
 
 /* Task Button Top */
 
 .task-button-top {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  height: 18px;
-  align-items: center;
-  font-size: 0.89rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 20px;
+    height: 18px;
+    align-items: center;
+    font-size: 1.1rem;
 }
-
 /* Task Button Top Left */
 
 .task-button-top-left {
@@ -1186,14 +1186,14 @@ main {
 }
 
 .task-button-due-date {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 100%;
-  height: 16px;
-  padding: 0 0 0 26px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: 16px;
+    padding: 10px 0 10px 26px;
 }
-
 .task-button-due-date-left {
   display: flex;
   align-items: center;
@@ -1241,7 +1241,7 @@ main {
   align-items: center;
   justify-content: flex-start;
   width: 100%;
-  font-size: 0.76rem;
+  font-size: 0.99rem;
  /* color: var(--gray);*/
  color: #08f526;
   padding: 0 0 3px 26px;
