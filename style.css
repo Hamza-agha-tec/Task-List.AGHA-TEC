@@ -1332,7 +1332,7 @@ main {
     width: 100%;
   }
   .add-task-modal {
-    width: 70%;
+    width: 90%;
   }
 } 
 @media screen and (max-width: 750px) {
