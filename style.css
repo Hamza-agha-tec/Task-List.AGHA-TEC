@@ -106,9 +106,10 @@ body {
   flex-direction: column;
   height: 100px;
   width: 100%;
-  background-color: #202020;/*
+  padding: 8px;
+  background-color: #202020;
   align-items: center;
-  justify-content: center;*/
+  justify-content: center;
 }
 .donation {
   display: flex;
