@@ -108,8 +108,6 @@ body {
   width: 100%;
   padding: 8px;
   background-color: #202020;
-  align-items: center;
-  justify-content: center;
 }
 .donation {
   display: flex;
