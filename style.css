@@ -413,6 +413,8 @@ header > div {
 }
 
 .projects-list-container.expanded {
+  position: relative;
+  top: 10px;
   visibility: visible;
   height: 100%;
   transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1) 0ms;
